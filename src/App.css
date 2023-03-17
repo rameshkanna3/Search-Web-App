@@ -56,8 +56,6 @@
   background-color: #F6F1F1;
   color: black;
   box-shadow: 0 0 3px cyan, 0 0 3px cyan, 0 0 15px cyan;
-
-
 }
 .search button{
   background: #EB455F;
@@ -70,23 +68,22 @@
   letter-spacing: pointer;
   /* pd */
   margin: 3px;
- 
 }
 .search button:hover{
   background-color:#19A7CE;
   color: white;
   box-shadow: 0 0 3px cyan, 0 0 3px cyan, 0 0 15px cyan;
 }
-/* @media only screen and (max-width: 991px) {
-  .srchbtn{
-    font-size: 60%;
+@media only screen and (max-width: 991px) {
+  .search button{
+  width:20%;
   }
 }
 @media only screen and (max-width: 767px) {
-  .srchbtn{
-    font-size: 50%;
-  }
-} */
+  .search button{
+    width:25%;
+    }
+}
 .search h1{
   font-family: 'Poppins',sans-serif;
   font: inherit;

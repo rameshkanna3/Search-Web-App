@@ -17,7 +17,6 @@ function LoadImages(){
     return state ;
     }
 function SearchImages(query){
-    const[msg,setmsg]=useState('')
     const[state,setState]=useState([])
     useEffect(()=>{
         axios

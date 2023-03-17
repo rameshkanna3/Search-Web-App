@@ -2,7 +2,7 @@ import { useState,useEffect } from "react";
 import axios from "axios";
 
 
-const count=1;
+// const count=1;
 function LoadImages(){
     const[state,setState]=useState([])
     useEffect(()=>{
@@ -12,7 +12,7 @@ function LoadImages(){
             setState(data.data)
         }) 
 
-    },[count])
+    })
 
     return state ;
     }

@@ -4,7 +4,6 @@ function Image(props){
         <div >
 
         <img src={props.src} className="imgsearch" alt=""/ >
-
         {/* <button></button> */}
         </div>
     )

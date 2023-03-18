@@ -41,7 +41,7 @@
   height: 39%;
   border: none;
   outline: none;
-  padding: 10px 50px;
+  padding: 10px 40px;
   background-color:white ;
   border-radius: 2px;
 
@@ -59,30 +59,19 @@
 }
 .search button{
   background: #EB455F;
-  padding: 11px 50px;
+  padding: 11px 40px;
   border: none;
   outline: none;
   color: #fff;
   width: 10%;
   height: 39%;
   letter-spacing: pointer;
-  /* pd */
   margin: 3px;
 }
 .search button:hover{
   background-color:#19A7CE;
   color: white;
   box-shadow: 0 0 3px cyan, 0 0 3px cyan, 0 0 15px cyan;
-}
-@media only screen and (max-width: 991px) {
-  .search button{
-  width:20%;
-  }
-}
-@media only screen and (max-width: 767px) {
-  .search button{
-    width:17%;
-    }
 }
 .search h1{
   font-family: 'Poppins',sans-serif;
@@ -128,7 +117,61 @@
 .imgsearch{
   border-radius: 30px;
 }
-
+@media only screen and (max-width: 991px) {
+  .search button{
+  width:20%;
+  }
+}
+/* @media only screen and (max-width: 600px) {
+  .search button{
+    width:17%;
+    }
+} */
+@media only screen and (max-width: 500px) {
+  .search button{
+    background: #EB455F;
+    padding: 7px 30px;
+    border: none;
+    outline: none;
+    color: #fff;
+    width: 28%;
+    height: 30%;
+    /* letter-spacing: pointer; */
+    margin: 1px;
+    font-size: 1em;
+    }
+    .search h1{
+      font-family: 'Poppins',sans-serif;
+      font: inherit;
+      padding:20px 5px;
+      color: #fff;
+      font-size: 2rem;
+    }
+    .search input{
+      width: 40%;
+      height: 30%;
+      border: none;
+      outline: none;
+      padding: 7px 40px;
+      background-color:white ;
+      /* border-radius: 2px; */
+    }
+    ::placeholder{
+      font-size:12px ;
+    }
+    .App footer{
+      width: 100%;
+      height: 30px;
+      font-size: 10px;
+      position: fixed;
+      bottom: 0;
+      display: flex;
+      background-color: black;
+      /* align-items: left;
+      justify-content: center;
+     */
+    }
+}
 /* .App-logo {
   padding: 30px;
   height: 40vmin;

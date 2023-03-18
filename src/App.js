@@ -18,17 +18,12 @@ function App() {
       <div className="App">
       <div className="search">
         <h1 className='primary'> Image Search Using Unsplash API</h1>
-        
-
         <input text="text" placeholder="Search Here.." onChange={(event)=>setQuery(event.target.value)}></input>
         <button onClick={search} onKeyDown={search} type="submit" className="srchbtn">Search</button>
       </div>
       <br></br>
       <br></br>
       <div className='picture'>
-      {!searchData &&  data.map((img,key)=>(
-          <Image src={img.urls.small} key={key}/>
-        ))}
         {searchQ ? searchData.map((img,key)=>(
           <Image src={img.urls.small}  key={key}/>
         ))  : data.map((img,key)=>(

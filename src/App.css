@@ -122,11 +122,6 @@
   width:20%;
   }
 }
-/* @media only screen and (max-width: 600px) {
-  .search button{
-    width:17%;
-    }
-} */
 @media only screen and (max-width: 500px) {
   .search button{
     background: #EB455F;
@@ -152,7 +147,7 @@
       height: 30%;
       border: none;
       outline: none;
-      padding: 7px 40px;
+      padding: 7px 20px;
       background-color:white ;
       /* border-radius: 2px; */
     }
@@ -171,6 +166,13 @@
       justify-content: center;
      */
     }
+    /* .picture{
+      columns: 3;
+      column-gap: 5px;
+      width: 80%;
+      margin:10px auto;
+      /* background-color: red; */
+      /* } */ 
 }
 /* .App-logo {
   padding: 30px;

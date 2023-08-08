@@ -33,7 +33,7 @@ function App() {
       <footer>
         <h3> Desiged By &nbsp;
  <span>Ramesh Kanna S &nbsp;</span>|&nbsp;
-Email&nbsp;:&nbsp;<a href='mailto:223003080@sastra.ac.in'>223003080@sastra.ac.in</a>
+Email&nbsp;:&nbsp;<a href='mailto:srameshkanna3@gmail.com'>srameshkanna3@gmail.com</a>
         </h3>
       </footer>
       </div>
